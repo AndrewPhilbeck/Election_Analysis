@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board gave me the task of completing an election audit for a recent local congressional election.
+A Colorado Board requested an election audit for a recent local congressional election. This audit will reveal the number of votes, along with the different counties involved and the the number of votes from those counties. Finally, the audit will reveal the candidates, how many votes each received and who the winning candidate was.
 
 ### The Goals:
 1. Calculate the total number of votes cast in the election.
@@ -16,7 +16,10 @@ A Colorado Board gave me the task of completing an election audit for a recent l
 
 ## Summary
 The analysis of the election show that:
-- There were 369,711 votes cast
+- There were 369,711 tota votes cast from three counties:
+    -  Jefferson county accounted for 10.5% of the vote (38,855 total)
+    -  Denver county accounted for 82.8% of the vote (306,055 total; Largest)
+    -  Arapahoe county accounted for 6.7% of the vote (24,801 total)
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -27,6 +30,9 @@ The analysis of the election show that:
     - Raymon Anthony Doane received 3.1% of the vote with 11,606 total votes. 
  - The winner of the election was:
     - Candidate Diana DeGette who received 73.8% of the vote and 272,892 total votes.
+    
+## Election Audit Summary
+This program could be used for further election audits simply by imorting differnet CSV files as elections were held, so long as the same information type is in the same row as the current file. With more information the code could be changed to gather data based on when a person voted, showing the statistics for early voting as well as mail in ballots. This is as simple as adding another row of information to the CSV file and adding another loop of code to pull out the date and type of vote cast (early/mail in). 
     
  ## Challenge Overview
  
